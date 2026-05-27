@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bone:   #F9F6EE;
+  --color-matte:  #28282B;
+  --color-accent: #3A3A3A;
+  --font-sans: 'Yeseva One', serif;
+}
+
+* {
+  font-family: 'Yeseva One', serif;
+}
+
+:root {
+  --bone:   #F9F6EE;
+  --matte:  #28282B;
+  --accent: #3A3A3A;
+}
+
+html {
+  background-color: var(--bone);
+  color: var(--matte);
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
